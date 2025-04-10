@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Logs and dumps
+*.log
+*.out
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Python tooling
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# If using dotenv
+.env
+.env.*
+
+# If packaging
+dist/
+build/
+
+# FastAPI docs cache (optional)
+openapi.json
