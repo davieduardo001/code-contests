@@ -5,23 +5,23 @@ Welcome to the **Code Contests Repository**! 🎉 This repository contains solut
 
 ## Structure
 The repository is organized as follows:
-- **`problem-id/`**: Each folder corresponds to a problem ID (e.g., `1002/`) and contains:
-  - **`main.py`**: Python solution to the problem.
-  - **`test_cases/`**: Test case files used for debugging.
-  - **`README.md`**: Problem statement and description.
+- **`contests/site/`**: Contains directories for different contest sites (e.g., `beecrowd`).
+- **`contests/site/`**: Each directory corresponds to a specific contest and contains:
+  - C++ solution files (e.g., `BEE_1000.cpp`).
 
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/code-contests.git
+   git@gitlab.com:pessoal1761115/code-contest.git
    ```
 2. Navigate to the desired problem folder:
    ```bash
-   cd code-contests/<problem-id>/
+   cd contests/beecrowd/BEE_1000.cpp
    ```
-3. Run the solution:
+3. Compile and run the solution:
    ```bash
-   python main.py
+   g++ BEE_1000.cpp
+   ./a.out
    ```
 4. Modify or improve the solutions and create a pull request for contributions.
 
@@ -31,7 +31,14 @@ For each problem, the respective folder includes:
 - **Input and Output Requirements**: Clear guidelines based on the problem description.
 - **Solution Code**: Python implementation and explanation of logic.
 
+## Dependencies
+List any dependencies or tools required to run the solutions here. For example:
+- C++ compiler (e.g., g++)
+- Any specific libraries or packages
+
 ## Contribution Guidelines
-- Follow PEP 8 standards for Python coding.
+- Follow C++ coding standards and best practices.
 - Add test cases for the solutions.
+- Use meaningful commit messages and follow the branch naming conventions (e.g., `feature/<description>` or `bugfix/<description>`).
+- Ensure all tests pass before submitting a pull request.
 - Provide a clear explanation in the `README.md` file for each problem.
